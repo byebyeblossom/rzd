@@ -1,0 +1,38 @@
+﻿<Window x:Class="TrainRzdApp.AssignmentDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Назначение бригады" Height="400" Width="450" WindowStartupLocation="CenterOwner">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Поезд:" FontWeight="Bold" Margin="5"/>
+        <ComboBox x:Name="cmbTrains" Grid.Row="1" Margin="5" Height="30" DisplayMemberPath="TrainNumber"/>
+
+        <TextBlock Grid.Row="2" Text="Бригада:" FontWeight="Bold" Margin="5"/>
+        <ComboBox x:Name="cmbCrews" Grid.Row="3" Margin="5" Height="30" DisplayMemberPath="CrewName"/>
+
+        <TextBlock Grid.Row="4" Text="Дата назначения:" FontWeight="Bold" Margin="5"/>
+        <DatePicker x:Name="dpDate" Grid.Row="5" Margin="5" Height="30"/>
+
+        <TextBlock Grid.Row="6" Text="Маршрут:" FontWeight="Bold" Margin="5"/>
+        <TextBox x:Name="txtRoute" Grid.Row="7" Margin="5" Height="30"/>
+
+        <StackPanel Grid.Row="8" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button x:Name="btnOk" Content="OK" Width="80" Height="35" Margin="10" 
+                    Click="BtnOk_Click" Background="#4CAF50" Foreground="White"/>
+            <Button x:Name="btnCancel" Content="Отмена" Width="80" Height="35" Margin="10" 
+                    Click="BtnCancel_Click" Background="#F44336" Foreground="White"/>
+        </StackPanel>
+    </Grid>
+</Window>

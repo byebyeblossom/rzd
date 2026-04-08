@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|c:\\users\\.eveiluxx\\desktop\\\u0443\u043F1\\rzd\\rzd\\traindialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\traindialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|c:\\users\\.eveiluxx\\desktop\\\u0443\u043F1\\rzd\\rzd\\crewdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\crewdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|c:\\users\\.eveiluxx\\desktop\\\u0443\u043F1\\rzd\\rzd\\assignmentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\assignmentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|c:\\users\\.eveiluxx\\desktop\\\u0443\u043F1\\rzd\\rzd\\assignmentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\assignmentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|c:\\users\\.eveiluxx\\desktop\\\u0443\u043F1\\rzd\\rzd\\crewdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\crewdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|c:\\users\\.eveiluxx\\desktop\\\u0443\u043F1\\rzd\\rzd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|c:\\users\\.eveiluxx\\desktop\\\u0443\u043F1\\rzd\\rzd\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|c:\\users\\.eveiluxx\\desktop\\\u0443\u043F1\\rzd\\rzd\\traindialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4982F7-C841-4552-8CE8-57C25911CDC5}|rzd\\rzd.csproj|solutionrelative:rzd\\traindialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 107,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssignmentDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\AssignmentDialog.xaml.cs",
+              "RelativeDocumentMoniker": "rzd\\AssignmentDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\AssignmentDialog.xaml.cs",
+              "RelativeToolTip": "rzd\\AssignmentDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:40:22.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignmentDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\AssignmentDialog.xaml",
+              "RelativeDocumentMoniker": "rzd\\AssignmentDialog.xaml",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\AssignmentDialog.xaml",
+              "RelativeToolTip": "rzd\\AssignmentDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T13:39:57.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\Models.cs",
+              "RelativeDocumentMoniker": "rzd\\Models.cs",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\Models.cs",
+              "RelativeToolTip": "rzd\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:36:56.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CrewDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\CrewDialog.xaml.cs",
+              "RelativeDocumentMoniker": "rzd\\CrewDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\CrewDialog.xaml.cs",
+              "RelativeToolTip": "rzd\\CrewDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:31:46.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrewDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\CrewDialog.xaml",
+              "RelativeDocumentMoniker": "rzd\\CrewDialog.xaml",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\CrewDialog.xaml",
+              "RelativeToolTip": "rzd\\CrewDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T13:31:16.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrainDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\TrainDialog.xaml.cs",
+              "RelativeDocumentMoniker": "rzd\\TrainDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\TrainDialog.xaml.cs",
+              "RelativeToolTip": "rzd\\TrainDialog.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:28:53.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\TrainDialog.xaml",
+              "RelativeDocumentMoniker": "rzd\\TrainDialog.xaml",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\TrainDialog.xaml",
+              "RelativeToolTip": "rzd\\TrainDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T13:28:26.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "rzd\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\MainWindow.xaml.cs",
+              "RelativeToolTip": "rzd\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwNkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T12:01:57.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "rzd\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\.eveiLuxx\\Desktop\\\u0423\u041F1\\rzd\\rzd\\MainWindow.xaml",
+              "RelativeToolTip": "rzd\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T12:02:01.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

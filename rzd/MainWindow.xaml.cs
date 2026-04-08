@@ -30,47 +30,43 @@ namespace TrainRzdApp
         {
             // ⚠️ ВМЕСТО ЭТОГО - ПОДКЛЮЧАЙТЕ ВАШУ БД ⚠️
 
-            // Тестовые поезда
+         
             trainsList.Add(new Train { Id = 1, TrainNumber = "001А", TrainType = "Пассажирский", MaxSpeed = 120, Weight = 850, Status = "Активен" });
             trainsList.Add(new Train { Id = 2, TrainNumber = "1502", TrainType = "Грузовой", MaxSpeed = 90, Weight = 2500, Status = "Активен" });
             trainsList.Add(new Train { Id = 3, TrainNumber = "701У", TrainType = "Скорый", MaxSpeed = 160, Weight = 720, Status = "Активен" });
 
-            // Тестовые бригады
+           
             crewsList.Add(new Crew { Id = 1, CrewName = "Бригада №1", DriverName = "Петров И.И.", AssistantName = "Сидоров А.А.", Experience = 15 });
             crewsList.Add(new Crew { Id = 2, CrewName = "Бригада №2", DriverName = "Смирнов В.П.", AssistantName = "Козлов Д.С.", Experience = 8 });
             crewsList.Add(new Crew { Id = 3, CrewName = "Бригада №3", DriverName = "Васильев А.Н.", AssistantName = "Морозов Е.В.", Experience = 22 });
 
-            // Тестовые назначения
+            
             assignmentsList.Add(new Assignment { Id = 1, TrainId = 1, CrewId = 1, TrainNumber = "001А", CrewName = "Бригада №1", AssignmentDate = DateTime.Now, Route = "Уфа - Москва" });
             assignmentsList.Add(new Assignment { Id = 2, TrainId = 2, CrewId = 2, TrainNumber = "1502", CrewName = "Бригада №2", AssignmentDate = DateTime.Now, Route = "Уфа - Челябинск" });
         }
 
-        // ========== МЕТОДЫ ДЛЯ РАБОТЫ С БД (ДОБАВЬТЕ СВОИ) ==========
+        
 
         private void LoadTrainsFromDB()
         {
-            // ⚠️ ЗДЕСЬ ЗАГРУЗИТЕ ПОЕЗДА ИЗ ВАШЕЙ БД
-            // Пример:
-            // trainsList.Clear();
-            // var trains = yourDatabase.GetAllTrains();
-            // foreach (var train in trains) trainsList.Add(train);
+           
         }
 
         private void LoadCrewsFromDB()
         {
-            // ⚠️ ЗДЕСЬ ЗАГРУЗИТЕ БРИГАДЫ ИЗ ВАШЕЙ БД
+            
         }
 
         private void LoadAssignmentsFromDB()
         {
-            // ⚠️ ЗДЕСЬ ЗАГРУЗИТЕ НАЗНАЧЕНИЯ ИЗ ВАШЕЙ БД
+           
         }
 
-        // ========== ОБРАБОТЧИКИ ПОЕЗДОВ ==========
+       
 
         private void BtnRefreshTrains_Click(object sender, RoutedEventArgs e)
         {
-            LoadTrainsFromDB(); // Замените на вашу загрузку
+            LoadTrainsFromDB(); 
         }
 
         private void BtnAddTrain_Click(object sender, RoutedEventArgs e)
@@ -78,10 +74,9 @@ namespace TrainRzdApp
             var dialog = new TrainDialog(new Train(), "Добавление поезда");
             if (dialog.ShowDialog() == true)
             {
-                // ⚠️ ДОБАВЬТЕ В БАЗУ ДАННЫХ
-                // yourDatabase.AddTrain(dialog.Train);
-
-                trainsList.Add(dialog.Train); // Временное добавление
+              
+              
+                trainsList.Add(dialog.Train); 
                 MessageBox.Show("Поезд добавлен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
@@ -99,10 +94,7 @@ namespace TrainRzdApp
             var dialog = new TrainDialog(selected, "Редактирование поезда");
             if (dialog.ShowDialog() == true)
             {
-                // ⚠️ ОБНОВИТЕ В БАЗЕ ДАННЫХ
-                // yourDatabase.UpdateTrain(dialog.Train);
-
-                // Обновляем в коллекции
+               
                 int index = trainsList.IndexOf(selected);
                 trainsList[index] = dialog.Train;
 
@@ -123,19 +115,18 @@ namespace TrainRzdApp
             if (MessageBox.Show($"Удалить поезд {selected.TrainNumber}?", "Подтверждение",
                 MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
-                // ⚠️ УДАЛИТЕ ИЗ БАЗЫ ДАННЫХ
-                // yourDatabase.DeleteTrain(selected.Id);
+               
 
-                trainsList.Remove(selected); // Временное удаление
+                trainsList.Remove(selected); 
                 MessageBox.Show("Поезд удален!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
-        // ========== ОБРАБОТЧИКИ БРИГАД ==========
+       
 
         private void BtnRefreshCrews_Click(object sender, RoutedEventArgs e)
         {
-            LoadCrewsFromDB(); // Замените на вашу загрузку
+            LoadCrewsFromDB(); 
         }
 
         private void BtnAddCrew_Click(object sender, RoutedEventArgs e)
@@ -143,10 +134,8 @@ namespace TrainRzdApp
             var dialog = new CrewDialog(new Crew(), "Добавление бригады");
             if (dialog.ShowDialog() == true)
             {
-                // ⚠️ ДОБАВЬТЕ В БАЗУ ДАННЫХ
-                // yourDatabase.AddCrew(dialog.Crew);
-
-                crewsList.Add(dialog.Crew); // Временное добавление
+                
+                crewsList.Add(dialog.Crew); 
                 MessageBox.Show("Бригада добавлена!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
@@ -164,10 +153,7 @@ namespace TrainRzdApp
             var dialog = new CrewDialog(selected, "Редактирование бригады");
             if (dialog.ShowDialog() == true)
             {
-                // ⚠️ ОБНОВИТЕ В БАЗЕ ДАННЫХ
-                // yourDatabase.UpdateCrew(dialog.Crew);
-
-                // Обновляем в коллекции
+               
                 int index = crewsList.IndexOf(selected);
                 crewsList[index] = dialog.Crew;
 
@@ -188,19 +174,18 @@ namespace TrainRzdApp
             if (MessageBox.Show($"Удалить бригаду {selected.CrewName}?", "Подтверждение",
                 MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
-                // ⚠️ УДАЛИТЕ ИЗ БАЗЫ ДАННЫХ
-                // yourDatabase.DeleteCrew(selected.Id);
+             
 
-                crewsList.Remove(selected); // Временное удаление
+                crewsList.Remove(selected); 
                 MessageBox.Show("Бригада удалена!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 
-        // ========== ОБРАБОТЧИКИ НАЗНАЧЕНИЙ ==========
+ 
 
         private void BtnRefreshAssignments_Click(object sender, RoutedEventArgs e)
         {
-            LoadAssignmentsFromDB(); // Замените на вашу загрузку
+            LoadAssignmentsFromDB(); 
         }
 
         private void BtnAddAssignment_Click(object sender, RoutedEventArgs e)
@@ -208,10 +193,9 @@ namespace TrainRzdApp
             var dialog = new AssignmentDialog(new Assignment(), trainsList.ToList(), crewsList.ToList());
             if (dialog.ShowDialog() == true)
             {
-                // ⚠️ ДОБАВЬТЕ В БАЗУ ДАННЫХ
-                // yourDatabase.AddAssignment(dialog.Assignment);
+                
 
-                assignmentsList.Add(dialog.Assignment); // Временное добавление
+                assignmentsList.Add(dialog.Assignment); 
                 MessageBox.Show("Назначение добавлено!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
@@ -229,10 +213,8 @@ namespace TrainRzdApp
             if (MessageBox.Show($"Отменить назначение для поезда {selected.TrainNumber}?", "Подтверждение",
                 MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
-                // ⚠️ УДАЛИТЕ ИЗ БАЗЫ ДАННЫХ
-                // yourDatabase.DeleteAssignment(selected.Id);
-
-                assignmentsList.Remove(selected); // Временное удаление
+                
+                assignmentsList.Remove(selected); 
                 MessageBox.Show("Назначение отменено!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
